@@ -1,0 +1,27 @@
+{
+    "iams": [{
+            "id": "MicroStrategy-Aldar",
+            "blockAutoProvisioning": false,
+            "vendor": {
+                "name": "azure",
+                "version": "0"
+            },
+            "issuer": "https://login.microsoftonline.com/ab98858a-ce1a-4fea-a19b-e31ea792a488/v2.0",
+            "clientId": "6a9ff3df-4ae8-4b7f-843b-85c022d90907",
+            "clientName": "Aldar Digital Twin MicroStrategy",
+            "clientSecret": "ZSl8Q~otz._DF8ckpBkLqbBBiHgurt~wJGsHHc_G",
+            "nativeClientId": "6a9ff3df-4ae8-4b7f-843b-85c022d90907",
+            "redirectUri": "https://mstr-dev.aldar.com/MicroStrategyLibrary/auth/oidc/login",
+            "scopes": ["openid", "profile", "email", "offline_access"],
+            "claimMap": {
+                "fullName": "name",
+                "loginName": "email",
+                "userId": "email",
+                "email": "email",
+                "groups": "groups"
+            },
+            "adminGroups": null,
+            "default": true
+        }
+    ]
+}
